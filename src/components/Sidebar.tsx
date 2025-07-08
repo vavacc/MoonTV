@@ -138,12 +138,12 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
   const menuItems = [
     {
       icon: Film,
-      label: '热门电影',
+      label: '电影',
       href: '/douban?type=movie&tag=热门&title=热门电影',
     },
     {
       icon: Tv,
-      label: '热门剧集',
+      label: '剧集',
       href: '/douban?type=tv&tag=热门&title=热门剧集',
     },
     {
@@ -167,11 +167,11 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
   ];
 
   const { siteName } = useSite();
-  if (siteName !== 'MoonTV') {
+  if (siteName !== 'SmileTV') {
     menuItems.push({
       icon: Github,
-      label: 'MoonTV',
-      href: 'https://github.com/senshinya/MoonTV',
+      label: 'SmileTV',
+      href: 'https://github.com/vavacc/MoonTV',
     });
   }
 

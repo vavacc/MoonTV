@@ -1,7 +1,8 @@
+
 {
   "cache_time": 7200,
   "api_site": {
-    "heimuergw"
+    "heimuerwg": {
       "api": "https://json.heimuer.xyz/api.php/provide/vod",
       "name": "黑木耳-暗紫",
       "detail": "https://heimuer.tv"

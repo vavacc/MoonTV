@@ -125,17 +125,17 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
   const menuItems = [
     {
       icon: Film,
-      label: '电影',
+      label: 'VIP-电影',
       href: '/douban?type=movie',
     },
     {
       icon: Tv,
-      label: '剧集',
+      label: 'VIP-剧集',
       href: '/douban?type=tv',
     },
     {
       icon: Clover,
-      label: '综艺',
+      label: 'VIP-综艺',
       href: '/douban?type=show',
     },
   ];
@@ -191,7 +191,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
                 </div>
                 {!isCollapsed && (
                   <span className='whitespace-nowrap transition-opacity duration-200 opacity-100'>
-                    首页
+                    VIP-首页
                   </span>
                 )}
               </Link>
@@ -212,7 +212,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
                 </div>
                 {!isCollapsed && (
                   <span className='whitespace-nowrap transition-opacity duration-200 opacity-100'>
-                    搜索
+                    VIP-搜索
                   </span>
                 )}
               </Link>
